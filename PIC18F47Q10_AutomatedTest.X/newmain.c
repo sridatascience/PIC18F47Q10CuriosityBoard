@@ -7,6 +7,7 @@ uint8_t add(uint8_t n, uint8_t o, uint8_t p ){
 void main() {
    volatile uint8_t a = 0x05;
    TMR1H = a;
+   m = TMR1H;
    volatile uint8_t c = 0x1F;
    TMR1L = c;
    volatile uint8_t b =0x08;
